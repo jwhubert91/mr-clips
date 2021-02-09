@@ -12,16 +12,13 @@ npm install --save mr-clips
 
 ## Usage
 
+### Important! - Note that users must define an integer 'height' prop or the image will not be displayed.
+
 ```jsx
-import React, { Component } from 'react'
+import MrClips from 'mr-clips'
 
-import MyComponent from 'mr-clips'
-import 'mr-clips/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+function App() {
+    return (<MrClips height={200} />)
 }
 ```
 
