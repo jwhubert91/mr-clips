@@ -1,10 +1,9 @@
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+import React from 'react';
 
-var React = _interopDefault(require('react'));
-
-var MrClips = function MrClips(_ref) {
-  var height = _ref.height;
-  var clipsStyle = {
+function MrClips({
+  height
+}) {
+  const clipsStyle = {
     height: height + "px",
     position: "fixed",
     bottom: '10px',
@@ -17,10 +16,9 @@ var MrClips = function MrClips(_ref) {
     src: 'https://drive.google.com/uc?id=1fcFz1ESLzA_8KPlQKICg2gmUSc2__nxN',
     alt: "How can I help you?",
     style: {
-      height: '100%'
+      height: "100%"
     }
   }));
-};
+}
 
-module.exports = MrClips;
-//# sourceMappingURL=index.js.map
+export default MrClips;

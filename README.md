@@ -1,27 +1,21 @@
-# mr-clips
+# Getting Started with MrClips
 
-> Mr Clips Omnipresent Web Helper React Component
+MrClips is probably the most advanced chatbot available on the net. It can serve as your site's web helper or as the sole element on your website. It inspires confidence with its strong gaze, but comforts with its knowing smile and unflinching eye contact. It is self-explanatory, and it gets the job done.
 
-[![NPM](https://img.shields.io/npm/v/mr-clips.svg)](https://www.npmjs.com/package/mr-clips) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+## Available packages
 
-## Install
+To install mr-clips in your package run:
 
-```bash
-npm install --save mr-clips
-```
+`npm i mr-clips`
 
-## Usage
+To use mr-clips within a React component run:
 
-### Important! - Note that users must define an integer 'height' prop or the image will not be displayed.
+`import MrClips from 'mr-clips/MrClips'`
 
-```jsx
-import MrClips from 'mr-clips'
+This imports the component and styling.
 
-function App() {
-    return (<MrClips height={200} />)
-}
-```
+To use MrClips initialize the JSX component anywhere within your component, like so:
 
-## License
+`<MrClips height={200} />`
 
-MIT © [jwhubert91](https://github.com/jwhubert91)
+**Note: You must provide a height prop equal to an integer; this establishes the height of the icon in px.**
